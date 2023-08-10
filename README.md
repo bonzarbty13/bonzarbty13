@@ -89,3 +89,105 @@ index.html
 </body>
 
 </html>
+
+
+<!--Google Search-->
+Style.css
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Robot' , sans-serif;
+}
+header{
+  width: 100%;
+  
+}
+ul{
+  list-style: none;
+  
+}
+#nav_bar{
+  float: right;
+}
+#nav_bar li{
+  display: inline-block;
+  padding: 6px;
+}
+#nav_bar #sign_in{
+  background: #4887ef;
+  margin-right: 25px;
+  padding: 7px 15px;
+  border-radius: 3px;
+  font-weight: bold;
+  
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+li.nav-links a:hover{
+  text-decoration: underline;
+  
+}
+#Sign_in:hover{
+  box-shadow: 1px 1px 5px #999;
+}
+#Sign_in{
+  color: #fff;
+}
+
+.google #google_logo{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  clear: both;
+  padding-top: 112px;
+  padding-bottom: 20px;
+}
+.form{
+  text-align: center;
+}
+#textsearch{
+  width: 250px;
+  line-height: 32px;
+  padding: 20px 10px;
+}
+.form #textsearch{
+  padding: 0 8px;
+}
+#textsearch:hover{
+  border-color: #e4e4e4;
+  padding-top: 0;
+}
+.buttons{
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 300px;
+}
+footer{
+  background: #f2f2f2;
+  border-top: solid 2px #e4e4e4;
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 0;
+  width: 100%;
+}
+footer ul li{
+  display: inline;
+  color: #666666;
+  font-size: 14px;
+  padding: 13px;
+  
+}
+footer ul{
+  float: left;
+  padding: 1px;
+ 
+}
+footer ul a:hover{
+  text-decoration: underline;
+}
+.footer-right{
+  float: right;
+}
